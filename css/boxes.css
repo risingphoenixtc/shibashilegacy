@@ -1,0 +1,197 @@
+
+ /*=-=-==-=-=--==- BOXES =-=-=-=-=-=-=-*/
+ 
+ 
+/* Show only to IE PC \*/
+* html .boxhead h2 {height: 1%;} /* For IE 5 PC */
+
+.centerBox {
+	
+	margin: 0 auto; /* center for now */
+
+	background: url(../images/boxes/box_squarebot_right.gif) no-repeat bottom right;
+	
+	font-size: 90%;
+
+}
+
+.centerBox .inner
+{
+	padding: 2px 15px 10px 3px;
+}
+
+
+
+
+.boxhead {
+	position: relative;
+	background: url(../images/boxes/box_blue_cboth_headright.gif) no-repeat top right;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.boxhead h1, .boxhead h2, .boxhead h3, .boxhead h4, .boxhead h5, .boxhead h6, .boxhead p {
+	background: url(../images/boxes/box_blue_cboth_headleft.gif) no-repeat top left;
+	margin: 0;
+	padding: 7px 10px 7px 7px;
+	color: white;
+	font-weight: bold;
+	font-size: 90%;
+	line-height: 1em;
+}
+
+.boxhead h2 a{
+	
+	margin-right: 0.5em;
+
+}
+
+.boxhead a.help{
+	
+	
+	position: absolute;
+	right: 17px;
+	top: 5px;
+
+}
+
+.boxbody {
+	background: url(../images/boxes/box_squarebot_left.gif) no-repeat bottom left;
+	margin: 0;
+	padding: 5px 1px 5px 5px;
+}
+
+.boxBodyNoPad
+{
+	padding: 0 15px 32px 2px;
+}
+
+.boxbody ul.relatedList
+{
+	list-style: none;
+	
+}
+
+
+
+.boxbody ul.relatedList li
+{
+	display: block;
+	padding-left: 0.2em;
+	padding-bottom:0.4em;
+	border-bottom: 1px dotted #777; 
+	
+}
+
+.boxbody ul.relatedList li.last
+{
+	border-bottom: 0; 
+	padding-bottom:0.2em;
+}
+
+
+
+.boxbody ul.relatedList li img
+{
+vertical-align:middle;
+}
+
+
+.sideBox {
+	
+	margin: 0 auto; /* center for now */
+	margin-bottom: 0.5em;
+	border-top:1px solid #bcbcbc;
+	border-bottom:1px solid #bcbcbc;
+	font-size: 80%;
+
+}
+
+.sideBox h3{
+	font-size: 90%;
+}
+
+.sideBox p{
+	font-size: 90%;
+}
+
+.sideBox .inner
+{
+	padding: 2px 15px 10px 3px;
+}
+
+
+.sideBoxBlueLeft
+{
+	/*background: url(/images/boxes/box_squarebot_right.gif) no-repeat bottom right;*/
+	background: none;
+}
+
+.sideBoxBlueLeft .boxhead
+{
+	background:none;
+	border-bottom: 1px dotted #83A9BB;
+	/*background: url(/images/boxes/box_blue_cboth_headright.gif) no-repeat top right;*/
+}
+
+
+.sideBoxBlueLeft .boxhead h2
+{
+	font-size: 100%;
+	color: #83A9BB;
+	background:none;
+	margin:0;
+	
+	padding-left: 1px;
+	
+}
+
+.sideBoxBlueLeft .boxbody
+{
+
+	background:none;
+
+}
+
+
+ 
+ /*=-==- BASIC BOX =--=-=-=-*/
+ 
+ .BasicTitleBox  
+{
+	margin:0;
+	border:0;
+	border: 1px solid #bbb;
+	padding: 0em;
+	padding-left: 0em;
+	width: 100%;
+}
+
+.BasicTitleBox  .title
+{
+	margin:0;
+	border:0;
+	border-bottom: 1px solid #bbb;
+	padding: 0.2em;
+	padding-left: 0.4em;
+	background-color: #fff;
+	background-image:url(../images/boxes/tb_header_bgrnd.gif);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+
+.BasicTitleBox .title h1, .BasicTitleBox .title h2,.BasicTitleBox .title h3,.BasicTitleBox .title h4,.BasicTitleBox .title h5,.BasicTitleBox .title h6 ,.BasicTitleBox .title p
+{
+	float:left;
+	margin:0;
+	font-weight: 700;
+	font-size: 100%;
+	color: #336;
+	border:0;
+}
+
+.BasicTitleBox div.title a, .Modules_Common div.title span
+{
+	float: right;
+}

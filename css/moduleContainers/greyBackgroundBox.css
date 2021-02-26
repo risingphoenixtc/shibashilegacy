@@ -1,0 +1,55 @@
+.greyBackgroundBox 
+{
+	background: #efefef;
+	color: #000;
+	
+	margin: 0.5em 0;
+	border:0;
+	border-bottom:1px solid #F0EFEF;
+	
+}
+
+.greyBackgroundBox .title
+{
+	background: #AAABAB;
+	border:0;
+}
+
+.greyBackgroundBox  h1
+{
+	background-image: none;
+}
+
+.greyBackgroundBox .boxContent
+{
+	padding:2px;
+}
+
+.greyBackgroundBox .title h1, .greyBackgroundBox .title h2, .greyBackgroundBox .title h3, .greyBackgroundBox .title h4, .greyBackgroundBox .title h5, .greyBackgroundBox .title h6, .greyBackgroundBox .title p
+{
+	font-size: 110%;
+	font-weight: normal;
+	background:none;
+	color: #fff;
+	background-image: none;
+}
+
+.greyBackgroundBox li
+{
+	display:block;
+	border-top:1px solid #F0EFEF;
+	list-style:none;
+	padding:1px;
+}
+
+.greyBackgroundBox a
+{
+	color: #7483B5;
+	
+}
+
+.greyBackgroundBox a:hover
+{
+	color: #bbb;
+	text-decoration:underline;
+}

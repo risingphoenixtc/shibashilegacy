@@ -1,0 +1,382 @@
+
+
+/* ADMIN STYLES-------------------------------------------*/
+
+#adminPanel
+{
+
+text-align: right;
+	padding-bottom: 0.2em;
+	border-bottom: 1px solid #bbb;
+	margin-bottom: 0.3em;
+	font-size: 70%;
+}
+
+#adminPanel ul
+{
+list-style:none;
+display:inline;
+
+}
+
+
+
+#adminPanel li
+{
+
+display:inline;
+border-left: 1px solid #999;
+padding-left:0.3em;
+margin-right:0.3em;
+}
+
+#adminPanel li.first 
+{
+display:inline;
+margin-left:0.3em;
+margin-right:0.3em;
+border:0;
+}
+
+#adminPanel li a
+{
+
+text-decoration: underline;
+ color: #999;
+}
+
+#adminPanel li a:hover
+{
+
+
+text-decoration: none;
+}
+
+
+
+#adminPanel form
+{
+	display:inline;
+}
+
+#adminPanel label
+{
+	font-size:70%;
+	
+	color:#999;
+}
+
+#adminPanel p
+{
+	display:inline;
+	font-weight:700;
+}
+
+#adminPanel input
+{
+	font-size: 60%;
+	width: 5em;
+}
+
+#adminPanel input.submit
+{
+	font-size: 70%;
+	width: 4em;
+}
+
+.editContainer{
+	border: 1px solid #060;
+	margin:1em  0.2em;
+	
+	/*background-color: #dfd;*/
+}
+
+.editContainer .advancedOptions
+{
+	height:0;
+	visibility: hidden;
+	background-color: #dfd
+	}
+
+.editContainer .editbutton{
+	
+	margin: 0.4em;
+	font-size: 90%;
+	background-color: #fff;
+	border:1px solid #999;
+}
+
+.editContainer .editbutton:hover{
+	
+	margin: 0.4em;
+	font-size: 90%;
+	background-color: #000;
+	color: #fff;
+	border:1px solid #fff;
+
+}
+
+.editContainer div.editHeading{
+
+	font-weight: 700;
+	background:#060;
+	color: #fff;
+	font-size: 100%;
+	width:100%;
+}
+.editContainer .warning{
+
+	font-weight: 700;
+	background:#900;
+	color: #fff;
+	font-size: 100%;
+	width:100%;
+}
+
+.editContainer div.editHeading.editButton{
+
+float:right;
+}
+
+.editContainer div.editHeading h4{
+
+	font-weight: 700;
+	padding: 0.2em;
+	margin:0;
+	clear:both;
+	float:left;
+}
+
+.editContainer div.editSubHeading{
+
+	font-weight: 700;
+	background:#8a8;
+	color: #fff;
+	font-size: 100%;
+	width:100%;
+}
+
+.editContainer div.editSubHeading h4{
+
+	font-weight: 700;
+	padding: 0.2em;
+	margin:0;
+	clear:both;
+}
+
+.editContainer div.editSubHeading h5{
+	display: block;
+	font-weight: 700;
+	font-size: 100%;
+	padding: 0.2em;
+	margin:0;
+	background-color: #aca;
+	color: #000;
+	clear:both;
+
+}
+
+.editContainer input{
+	
+	margin: 0.4em;
+	font-size: 90%;
+	
+
+}
+
+.editContainer textarea{
+	
+	
+	font-weight:700;
+	font-size: 120%;
+	width:95%;
+
+}
+
+.editContainer fieldset {
+	
+
+	width: 95%;
+	border: 0px dashed #f00;
+	
+
+}
+.editContainer fieldset legend{
+	
+	
+	font-weight:700;
+	width:95%;
+
+}
+
+
+
+.editContainer .spacer{
+	
+	margin: 0.4em;
+
+}
+
+.editContainer .radioBlock{
+	
+	
+	font-size: 90%;
+	background-color: #dfd;
+	border:1px solid #999;
+	color: #000;
+	max-height: 80px;
+	overflow:auto;
+}
+
+
+
+.noneditContainer{
+	border: 1px solid #600;
+	margin: 0.2em;
+	background-color: #fdd;
+}
+
+.noneditContainer h4.editHeading{
+	font-weight: 700;
+	background:#600;
+	color: #fff;
+	font-size: 100%;
+	padding: 0.2em;
+}
+
+
+.blockContainer
+{
+	padding:0.5em;
+	font-size:90%;
+}
+
+.blockContainer select
+{
+	font-size: 80%;
+	margin: 0.4em;
+	display: block;
+}
+
+
+/*=-===-=-=-=-=-===-=-=-=-*/
+
+.treeMenu{
+
+	position:relative;
+	padding: 0.3em;
+	padding-top: 0;
+	border: 1px solid #000;
+	color: #000;
+	width:90%;
+	margin-top: 1em;
+	background-color: #fff;
+	font-size: 0.9em;
+
+
+}
+
+.treeMenu h4{
+
+	background-color: #000;
+	color:#fff;
+	margin:0;
+	margin-left: -0.3em;
+	margin-right: -0.3em;
+	margin-bottom: 0.3em;
+	padding: 0.3em;
+	
+}
+.treeMenu div.container
+{
+
+	position: relative;
+	height: 100%;
+	width: 100%;
+	max-height: 100px;
+	overflow: auto;
+	clear:both;
+  		
+}
+
+.treeMenu ul{
+	display: block;
+	clear:both;
+	
+	border:0;
+	margin:0;
+	padding:0;
+	margin-left:30px;
+	font-size: inherit;
+	
+}
+
+.treeMenu ul.first{
+	
+	margin-left:0;
+	
+}
+
+
+.treeMenu li.newLevel{
+
+	list-style:none;
+	display:block;
+	border:0;
+	padding:0;
+	margin:0;
+	margin-left: 0;
+	
+	clear:both;
+	
+}
+
+
+
+
+.treeMenu li.folder{
+	
+	list-style:none;
+	line-height: 1em;
+	display: block;
+ 	float:left;
+ 	clear:both;
+ 	margin-left:5px;
+ 	min-height:25px;
+	padding-left: 25px;  /* Indent text past icon. */
+ 	font-weight: 700;
+ 	background-image: url(../images/icons/24x24/folder24x24.gif);
+   background-repeat: no-repeat;
+   background-position: 0em 0.2em;
+
+}
+
+
+.treeMenu li.folder span{
+
+	vertical-align:middle;
+
+}
+
+
+.treeMenu li.folder input{
+ 	margin: 0em;
+ 	margin-left: 2px;
+ 	margin-top: 2px;
+
+}
+
+.treeMenu li a {
+	height: auto;
+	margin: 0px;
+
+}
+.treeMenu li.first{
+	
+	margin-left: 0px;
+
+}
+
+
+
+

@@ -1,0 +1,63 @@
+/* CONTENT LAYOUT TEMPLATE STYLES */
+
+.panel
+{
+	margin: 0;
+	padding:0;
+	border-bottom:1px solid #999;
+	clear:both;
+}
+.panellast
+{
+	margin: 0;
+	padding:0;
+	border:0;
+	clear:both;
+}
+
+.columns2 .column1
+{
+	width:49%;
+	float:left;
+	border-right: 0px solid #999;
+}
+
+.columns2 .column2
+{
+	width:49%;
+	float:right;
+	border-left: 0px solid #999;
+}
+
+
+
+.columns2 .column3quarters
+{
+	width:74%;
+	float:left;
+	border-left: 0px solid #999;
+
+}
+
+
+.columns2 .column1quarter
+{
+	width:25%;
+	float: right;
+	border-left: 0px solid #999;
+
+}
+
+* html .columns2 .column3quarters
+{
+	width:72%;
+	float:left;
+	border-left: 0px solid #999;
+
+
+}
+
+* html .columns2 .column1quarter
+{
+	width:25%;
+}

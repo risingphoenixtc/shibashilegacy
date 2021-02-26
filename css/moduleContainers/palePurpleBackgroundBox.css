@@ -1,0 +1,38 @@
+.palePurpleBackgroundBox 
+{
+	background: #EEDBF4;
+	color: #000;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border:0;
+}
+
+.palePurpleBackgroundBox .title
+{
+	background: #AA83BF;
+	border:0;
+}
+
+.palePurpleBackgroundBox .boxContent
+{
+	padding:2px;
+}
+
+.palePurpleBackgroundBox .title h1, .palePurpleBackgroundBox .title h2, .palePurpleBackgroundBox .title h3, .palePurpleBackgroundBox .title h4, .palePurpleBackgroundBox .title h5, .palePurpleBackgroundBox .title h6, .palePurpleBackgroundBox .title p
+{
+	font-size: 100%;
+	background:none;
+	color: #fff;
+}
+
+.palePurpleBackgroundBox a
+{
+	color: #000;
+	text-decoration:underline;
+}
+
+.palePurpleBackgroundBox a:hover
+{
+	color: #666;
+	text-decoration:none;
+}

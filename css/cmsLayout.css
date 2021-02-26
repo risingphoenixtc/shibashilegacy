@@ -1,0 +1,901 @@
+/* GENERAL ------------------------------------------------------------------ */
+/*TEST*/
+/* Zero default margin & padding around common elements */
+body, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, li, ol, p, ul
+{
+	margin: 0;
+	border: 0 none #FFFFFF;
+	padding: 0;
+}
+
+body
+{
+	background-color: #fff;
+	color: #000000;
+	line-height: 1.4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+}
+
+a:link
+{
+	color: #0066CC;
+}
+
+a:visited
+{
+	color: #0066CC;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+img
+{
+	border: 0 none transparent;
+}
+
+input, select, table, textarea
+{
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearer
+{
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+	margin-bottom: -1px;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.hidden
+{
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.replacement
+{
+	position: absolute;
+	z-index: 10;
+	background-repeat: no-repeat;
+}
+
+
+.emph {
+	font-weight: 700;
+}
+
+* html .replacement
+{
+	top: 0;
+}
+
+a .replacement
+{
+	z-index: 20;
+	cursor: hand;
+	c\ursor: pointer;
+}
+
+
+#pageWidth
+{
+	width: 99%;
+	margin: 1.2em 0px 0 0px;
+
+}
+
+
+
+
+
+#FE_pageWidthInner
+{
+	width: 1024px;
+	margin:auto;
+	padding: 0 4px;
+	background-color: #fff;
+
+}
+
+
+
+/* HEADER ------------------------------------------------------------------- */
+
+#FE_top
+{
+	
+	height: 1em;
+	z-index: 100;
+	width: 100%;
+	min-width: 760px;
+	list-style: none;
+}
+
+#FE_top li
+{
+	position: relative;
+	z-index: 100;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+#FE_top a
+{
+	height: 0.8em;
+	display: block;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-indent: -20em;
+	text-decoration: none;
+	
+}
+
+#FE_top a:hover, #top a:focus, #top a:active
+{
+	top: 0;
+	left: 0;
+	background-color: #9999cc;
+	text-indent: 0;
+}
+
+
+#FE_top #FE_skipNav
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+}
+
+#FE_skipNav a
+{
+	position: relative;
+	top: -9999px;
+	left: -9999px;
+}
+
+#FE_skipNav a:focus, #skipNav a:active
+{
+	top: 0;
+	left: 0;
+	background-color: #004CB2;
+	text-indent: 0;
+}
+
+
+	
+
+#FE_header
+{
+	position: relative;
+	clear:both;
+	width:100%;
+	z-index: 2;
+	border-top: 1px solid #BBB;
+	margin-bottom: 4px;
+	margin-top:2px;
+}
+
+
+
+#FE_logo
+{
+	position: relative;
+	float:left;
+	width: 840px;
+	height: 98px;
+	overflow: hidden;
+	margin-top:0px solid white;
+}
+
+
+#FE_logo .replacement
+{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 840px;
+	height: 100%;
+	background-image: url(../images/design/rptc_header.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	border:0;
+	
+}
+
+
+
+#FE_sitePanel
+{
+	position: absolute;
+	top:5px;
+	right:16em;
+	color: #000;
+	font-size: 0.9em;
+	font-weight: 700;
+}
+	
+	
+#FE_sitePanel ul
+{
+	
+	display: inline;
+	margin: 0.4em 1em 0.4em 0em;
+	
+	}
+	
+		
+#FE_sitePanel ul li
+{
+	display: inline;
+	border-left: 1px solid #999;
+	padding-left: 0.5em;
+	margin-left: 0.5em;
+}
+
+		
+#FE_sitePanel ul li.first
+{
+	border-left: none;
+	padding-left: none;
+	margin-left: none;
+}
+		
+#FE_sitePanel ul li a
+{
+	color: #999;
+	text-decoration:underline;
+}
+
+		
+#FE_sitePanel ul li a:hover
+{
+	color: #333;
+	text-decoration: none;
+}
+
+
+
+
+
+
+#FE_topBox{
+	overflow: hidden;
+	display: block;
+	float: right;
+	width: 14.3em;
+	margin-bottom: 1px;
+	text-align: center;
+}
+
+
+#FE_topBox a {
+
+	display:block;
+	width: 100%;
+	color: white;
+	v-align: middle;
+	font-size: 1.4em;
+	font-weight:500;
+	line-height: 1em;
+	text-decoration: none;
+	background-color: #aa83bf;
+	padding: 4px 0px;
+	min-height:38px;
+	vertical-align:middle;
+	
+}
+
+
+#FE_topBox a:hover {
+	
+	background-color: #A0A0A0;
+
+}
+
+
+
+#FE_bottomBox
+{
+	clear:right;
+	display: block;
+	float: right;
+	width: 14.3em;
+	text-align: center;
+	
+}
+
+
+#FE_bottomBox a
+{
+	
+	display:block;
+	padding:6px 0;
+	width: 100%;
+	background-color: #661A8F;
+	color: white;
+	margin:auto;
+	v-align: middle;
+	font-size: 1.5em;
+	font-weight:500;
+	line-height: 1em;
+	text-decoration: none;
+	min-height:39px;
+	margin-bottom:1px;
+	
+}
+
+
+#FE_bottomBox a:hover {
+	
+	background-color: #A0A0A0;
+
+}
+
+
+/*=-=-=-=- COLUMNS ==-==-=-=-=-=-*/
+
+#FE_content
+{
+	
+	position: relative;
+	z-index: 2;
+	min-height: 450px;
+	height: 100%;
+	margin-top: 1px;
+	margin: 0px;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	
+}
+
+/*ie min height hack*/
+
+* html #FE_content
+{
+	height: 450px;
+}
+
+
+
+
+#FE_columnLeft
+{
+	float: left;
+	width: 16%;
+	color: #7483B5;
+	min-height: 450px;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	margin-top: 0;
+
+	background-color: #fff;
+}
+
+* html #FE_columnLeft
+{
+	height: 450px;
+}
+
+
+#FE_contentMain
+{
+	position: relative;
+	overflow:hidden;
+	/* add this in the triggerhaslayout in IE then change to block in seperate declaration below*/
+	display:inline-block;
+	min-height: 450px;
+	height: 100%;
+	font-size: 1.2em;
+	border-left:1px solid #D8D8D8;
+	
+}
+/*KEEP AS SEPERATE - reset from has layout trigger above */
+#FE_contentMain
+{
+	display:block;
+	
+}
+
+/*ie min height hack*/
+* html #FE_contentMain
+{
+	height: auto;
+	display:block;
+}
+
+#FE_columnRight
+{
+	width: 16%;
+	float:right;
+	min-height: 450px;
+	height: 100%;
+	border-left:1px solid #D8D8D8;
+}
+
+
+#FE_searchBox
+{
+	background-color:#F0EEEE;
+	border-bottom: 1px solid #D8D8D8;
+	padding: 0.5em 0.2em;
+}
+
+
+#FE_searchBox input.text
+{
+	display:inline-block;
+	float:left;
+	width: 70%;
+	border: 1px solid #7D7D7D;
+	margin:2px 1px;
+}
+
+
+#FE_searchBox input.button
+{
+	display: inline-block;
+	border: 1px solid #7D7D7D;
+	background-color:white;
+	margin: 2px 0px;
+	float:right;
+}
+
+
+.FE_sideBoxGrey
+{
+	width: 100%;
+	background-color: #999;
+}
+
+
+
+
+
+#FE_columnLeft h2{
+
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	background-color: #661A8F;
+	text-align:center;
+	padding: 2px;
+	padding-bottom: 0.2em;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 500;
+	
+}
+
+
+
+#FE_columnLeft li{
+
+	line-height: 1.1em;
+	font-weight: 700;
+	width: 100%;
+
+}
+
+
+#FE_columnLeft ul{
+
+	margin-bottom: 2em;
+	list-style: none;
+
+}
+
+#FE_columnLeft .navsection
+{
+	width: 100%;
+	}
+
+#FE_columnLeft .navsection a{
+	
+	display:block;
+	
+	padding: 6px 2px;
+	border-bottom:1px solid #F0EFEF;
+	color: #7483B5;
+	font-size: 1em;
+	font-weight: 500;
+	text-decoration:none;
+	text-align:center;
+	
+}
+
+
+#FE_columnLeft .navsection a:hover{
+	
+	color: #000;
+	text-decoration:underline;
+	background-color: #d8d8d8;
+	
+}
+
+
+#languageSelect{
+	
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	
+}
+
+
+#languageSelect table{
+	
+	width: 95%;
+	
+}
+
+
+
+/* MENU --------------------------------------------------------------------- */
+
+#FE_menu
+{
+	clear: both;
+	position: relative;
+	z-index: 3;
+	margin-top: 0px;
+	margin-bottom:0px;
+	background-color: #fff;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+
+
+#FE_menu ul
+{
+	float: left;
+	overflow:hidden;
+	list-style: none;
+	width: 100%;
+	font: 500 1.1em Tahoma,Arial,sans-serif;
+	background-color: #AA83BF;
+	height: 100%;
+	border-top: 1px solid #3B333F;
+	border-bottom: 1px solid #29003F;
+
+}
+
+
+
+
+#FE_menu li
+{
+	float:left;
+	margin-right: 0;
+	padding: 3px 5px;
+	height: 100%;
+	border-left: 0;
+	
+}
+
+
+#FE_menu li.first
+{
+
+
+	border-left: 0px solid white;
+	
+}
+
+#FE_menu li.first:hover
+{
+
+
+	border-left: 0px solid white;
+	
+}
+
+
+#FE_menu li:hover
+{
+	float: left;
+	margin-right: 0;
+	height: 100%;
+	border-left: 0;
+	background-color: #fff;	
+}
+
+
+#FE_menu a.button
+{	
+	padding: 2px 3px;
+	color: white;
+	text-decoration: none;
+}
+
+
+* html #FE_menu a
+{
+	height: 1px;
+}
+
+
+* html #FE_menu a
+{
+	text-decoration: underline;
+}
+
+#FE_menu a.button
+{
+	color: white;
+}
+
+
+#FE_menu a.button:hover
+{
+	color: #661a8f;
+	
+	padding: 2px 3px;
+	
+}
+
+
+/*=-=-=-==-=- BREADCRUMB =-=-=-=-===-*/
+
+#FE_breadcrumb
+{
+	clear:both;
+	display: block;
+	position: relative;
+	height: 2em;
+	margin-top: 0px;
+	margin-bottom:0px;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	padding-top:3px;
+	padding-left:3px;
+	background-color: white;
+	border:0;
+	border-bottom: 1px solid #661a8f;
+	color: #661a8f;
+}
+
+
+* html #FE_breadcrumb
+{
+	height: 2em;
+}
+
+
+
+
+#FE_breadcrumb ul{
+	display: inline;
+	list-style:none;
+	
+
+}
+
+#FE_breadcrumb p{
+	display: inline;
+	list-style:none;
+}
+
+#FE_breadcrumb li{
+	display: inline;
+	list-style:none;
+}
+
+
+#FE_breadcrumb ul a{
+	color: #4E5685;
+	display: inline;
+	text-decoration: underline;
+}
+
+
+#FE_breadcrumb ul a:hover{
+	color: #4E5685;
+	display: inline;
+	text-decoration: none;
+}
+
+
+/*=-=-=-=-==-=-==-=-=-=-=-=-=-=- =-=-=-=-=-==-==-==-=-*/
+
+
+#FE_contentMain .panel
+{
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	border-left-color: #000;
+}
+
+* html #FE_contentMain .panel
+{
+	height: 1px;
+}
+
+
+#FE_emailUpdatesForm form
+{
+	width: 100%;
+	border: 0px dashed #f00;
+	text-align: center;
+}
+
+#FE_emailUpdatesForm fieldset
+{
+
+	width: 10em;
+	border: 0px dashed #00f;
+	margin: 0 0 0em 0;
+	padding: 0 1em 1em 1em;
+	
+}
+
+#FE_emailUpdatesForm  span
+{
+	width: 100%;
+	font-weight: 500;
+	font-size: 1em;
+	margin-top: 0.5em;
+}
+
+
+#FE_emailUpdatesForm fieldset label
+{
+	width: 10em;
+	font-weight: bold;
+	font-size: 1em;
+	margin-top: 0.5em;
+	color: #999
+}
+
+#FE_emailUpdatesForm fieldset input
+{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/* content styles are in the content.css file */
+
+
+
+
+
+
+/* --------------   FOOTER    ----------------------------------------- */
+
+#FE_footer
+{
+	clear:both;
+	display:block;
+	background-color:#AA83BF;
+	border: 1px solid #7D7D7D;
+	
+	border-bottom: 0px solid #7D7D7D;	
+	width: 100%;
+	margin:0;
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.1em;
+}
+
+
+#FE_footer .floatLeft
+{
+	float: left;
+	padding: 0.5em;
+}
+
+#FE_footer .floatRight
+{
+	float: right;
+	text-align:right;
+	padding: 0.5em;
+}
+
+#FE_footer a
+{
+	color: #fff;
+	font-weight: bold;
+}
+
+#FE_footer a:hover
+{
+	color: #fff;
+	text-decoration:none;
+	
+}
+
+#FE_credit
+{
+
+	width: 100%;
+	margin:0;
+	padding-top: 2em;
+	background-color:#F0EEEE;
+	border: 1px solid #7D7D7D;
+	font-size: 1.2em;
+	color: #999;
+	text-align:left;
+	
+}
+
+#FE_credit p
+{
+	padding: 0.3em;
+}
+
+
+
+
+
+
+#FE_credit a
+{
+	color: #999;
+	font-weight:500;
+	text-decoration: none;
+}
+
+#FE_credit b
+{
+	font-weight:500;
+}
+
+#FE_footerNav
+{
+	width: 100%;
+	text-align:center;
+}
+
+
+
+#FE_footerNav ul
+{
+	list-style: none;
+	color: #999;
+}
+
+
+
+#FE_footerNav li
+{
+	display: inline;
+	color: #999;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	border-left: 1px solid #999;
+}
+
+
+#FE_footerNav li.first
+{
+	border: 0;
+}
+
+
+#FE_footerNav li a
+{
+
+	color: #999;
+	text-decoration: none;
+}
+
+
+#FE_footerNav li a:hover
+{
+	text-decoration:underline;
+}
+
+
+
+

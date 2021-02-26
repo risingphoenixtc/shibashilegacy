@@ -1,0 +1,92 @@
+/* MOdule_ImageGallery stylesheet For Clear CMS ------------------------------------------------------------------ */
+
+.Module_ImageGallery
+{
+	font-size: 0.9em;
+	margin-left: 0.3em;
+}
+
+
+.Module_ImageGallery  h1{
+
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	padding-bottom: 0.3em;
+	background-image: url(../../images/icons/dots.gif);
+	background-repeat: repeat-x;
+	background-position: 0 100%;
+	line-height: 1;
+	font-size: 100%;
+	
+}
+
+
+
+.Module_ImageGallery .caption{
+
+	border-top: 1px solid #999;
+	
+
+}
+
+
+.Module_ImageGallery .caption a{
+
+	display:block;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	background-color: #ccf;
+	color: #004;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+
+.Module_ImageGallery .caption a:hover{
+	color: #fff;
+	display:block;
+	background-color: #337;
+	text-decoration: none;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	font-weight: 700;
+}
+
+
+
+.Module_ImageGallery  p{
+	
+	margin-bottom: 1em;
+}
+
+
+
+.Module_ImageGallery .thumbNail
+{
+
+	float: left;
+	border: 1px solid #999;
+	margin: 0 1em 1em 0;
+	text-align: center;
+	white-space: nowrap;
+	background-color: #fff;
+	
+}
+
+html>body .Module_ImageGallery  .thumbNail{
+
+	width: auto;
+	text-align: center;
+	
+}
+
+
+.Module_ImageGallery img
+{
+
+	border: 0px solid #999;
+	margin: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+
+
+

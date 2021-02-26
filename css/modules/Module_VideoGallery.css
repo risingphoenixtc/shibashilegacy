@@ -1,0 +1,88 @@
+/* Module_VideoGallery stylesheet For Clear CMS ------------------------------------------------------------------ */
+
+.Module_VideoGallery {
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	font-size: 1em;
+	background-color: none;
+	
+
+}
+
+.Module_VideoGallery  h1{
+	margin-top: 0.1em;
+	margin-bottom: 0em;
+	padding-bottom: 0.3em;
+	background-image: url(../../images/icons/dots.gif);
+	background-repeat: repeat-x;
+	background-position: 0 90%;
+	font-size: 125%;
+}
+
+.Module_VideoGallery  p{
+	
+	margin-bottom: 1em;
+}
+
+
+.Module_VideoGallery img
+{
+
+border: 0px solid #999;
+margin: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+
+.Module_VideoGallery .caption a{
+	color: #004;
+	text-decoration: none;
+	font-weight: 700;
+	
+}
+
+.Module_VideoGallery .caption a:hover{
+	color: #004;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+
+
+.Module_VideoGallery .thumbNail
+{
+float: left;
+
+border: 1px solid #999;
+margin: 0 1em 1em 0;
+text-align: center;
+
+background-color: #fff;
+}
+
+html>body .Module_VideoGallery  .thumbNail{
+	width: auto;
+	text-align: center;
+}
+
+
+.Module_VideoGallery .caption{
+
+	border-top: 1px solid #999;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	background-color: #ccf;
+	
+}
+
+
+
+/*admin styles*/
+
+.Module_VideoGallery  select{
+	font-size: 0.8em;
+	margin: 0.6em;
+}
+.Module_VideoGallery  input{
+	font-size: 0.8em;
+	margin: 0.6em;
+}

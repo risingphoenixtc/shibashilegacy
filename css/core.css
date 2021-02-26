@@ -1,0 +1,386 @@
+.clearer
+{
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+	margin-bottom: -1px;
+	padding: 1px;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.hidden
+{
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.emph
+{
+	font-weight: 700;
+}
+
+
+.smaller
+{
+	font-size: 80%;
+}
+
+.required
+{
+	color: #f00;
+}
+
+
+.5percent
+{
+	width: 150%;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.readonly
+{
+	background-color: #ececec;
+}
+
+.scrollBox
+{
+	max-height: 150px;
+	overflow-y:auto;
+
+}
+.scrollBox250
+{
+	max-height: 250px;
+	overflow-y:auto;
+
+}
+
+
+.publicErrors
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	margin-left: 5px;
+	border: 1px solid #900;
+	background: #fee;
+	color: #000;
+	font: 500 1em Tahoma,Verdana,Arial,sans-serif;
+	width: 98%;
+}
+
+.publicMessage
+{
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	border: 1px solid #090;
+	background: #efe;
+	color: #000;
+	font: 500 1em Tahoma,Verdana,Arial,sans-serif;
+	width: 99%;
+}
+
+
+.publicErrors .content, .publicMessage div.spacer
+{
+	margin:0.4em;
+	font-weight: 500;
+}
+
+.publicErrors div.spacer, .publicMessage div.spacer
+{
+	margin: 1em;
+}
+
+.publicErrors h4
+{
+	margin:0;
+	font-size: 1.2em;
+	background: #b00;
+	background-image:url(../images/icons/gtk-stop_redback_smallest.gif);
+	background-repeat: no-repeat;
+	background-position: 0.2em 0.2em;
+	text-indent: 2em;
+	color: #fff;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+.publicMessage h4
+{
+	margin:0;
+	font-size: 1.2em;
+	background: #0b0;
+	background-image:url(../images/icons/24x24/exclamation-important.gif);
+	background-repeat: no-repeat;
+	background-position: 0.2em 0.2em;
+	text-indent: 2em;
+	color: #fff;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+.publicErrors h5, .publicMessage h5
+{
+	font-size: 1em;
+	background: #000;
+	color: #fff;
+	margin-top:0.2em;
+	margin-bottom:0.2em;
+	padding:0.2em;
+}
+
+.publicErrors ul, .publicMessage ul
+{
+
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 1.5em;
+
+}
+
+.publicErrors li , .publicMessage li
+{
+	color: #000;
+
+
+}
+
+
+#backendLogin
+{
+	border: 1px solid #999;
+	background-color: #F1F2F5;
+
+}
+
+
+
+	#warning {
+
+		margin-top: 0.3em;
+		margin-bottom: 0.3em;
+		padding-bottom: 0.3em;
+		border: 2px solid #900;
+		background: #fee;
+		color: #000;
+		font: 500 90% Tahoma,Verdana,Arial,sans-serif;
+		width: 40em;
+
+	}
+
+	#warning a{
+
+
+		font: 700 0.9em Tahoma,Verdana,Arial,sans-serif;
+		color: #009;
+
+	}
+
+	#warning form{
+
+
+	}
+	#warning form input{
+
+		margin: 0.5em;
+	}
+
+	#warning p{
+		margin:0.4em;
+		font-weight: 500;
+
+	}
+
+	#warning div.spacer{
+
+		margin: 1em;
+
+	}
+
+	#warning h4{
+		margin:0;
+		font-size: 2em;
+		background: #b00;
+		background-image:url(../images/icons/gtk-stop_redback_small.gif);
+		background-repeat: no-repeat;
+		background-position: 0.2em 0.2em;
+		text-indent: 2.5em;
+		height: 1.8em;
+		color: #fff;
+		padding-top: 0.3em;
+		padding-bottom: 0;
+
+
+	}
+
+	#warning h5{
+
+		font-size: 1em;
+		background: #000;
+		color: #fff;
+		margin-top:0.2em;
+		margin-bottom:0.2em;
+		padding:0.2em;
+
+	}
+
+	
+	
+#contentMain  .block
+{
+	padding-left: 0em;
+	border: 1px solid #999;
+	background-color: #e9ecef;
+	margin-bottom: 0.5em;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding-bottom: 1em;
+}	
+
+
+#contentMain  .block h3
+{
+	
+	border-bottom: 1px solid #999;
+	background-color: #fff;
+	padding: 0.5em;
+}
+
+
+#contentMain  .subBlock
+{
+	border:1px solid #999;
+	margin:0;
+	margin-top:1em;
+	margin-right:5px;
+	margin-left:5px;
+	padding: 0.5em;
+	width: auto;
+	background-color: #f3f3f3;
+}
+
+#contentMain .block fieldset
+{
+	border:1px solid #999;
+	margin:0;
+	margin-top:1em;
+	margin-right:5px;
+	margin-left:5px;
+	padding: 0.5em;
+	width: auto;
+	background-color: #f3f3f3;
+}
+
+
+
+#contentMain  .subBlock ul
+{
+	margin-left:2em;
+	list-style:square;
+}
+
+#contentMain  .subBlock ul.nobullet
+{
+	list-style:none;
+}
+
+
+#contentMain  .block input.linkButton
+{
+	border:1px solid #999;
+	background-color: #fff;
+	font-weight: 700;
+	font-size: 90%;
+	margin:0.2em;
+	padding:2px;
+	width: auto;
+	float:left;
+	cursor: pointer;
+}
+
+#contentMain   .inputFloatFifty
+{
+	float:left;
+	width: 49%;
+	}
+
+#contentMain   .inputFloat
+{
+	float:left;
+	}
+
+
+#contentMain  .block input.linkButton:hover
+{
+	background-color: #ddd;
+}
+
+
+#contentMain  .block button.linkButton
+{
+	border:1px solid #999;
+	background-color: #fff;
+	font-weight: 700;
+	font-size: 90%;
+	margin:0.2em;
+	padding:2px;
+	width: auto;
+	float:left;
+	cursor: pointer;
+}
+
+#contentMain  .block button.linkButton:hover
+{
+	background-color: #ddd;
+}
+
+
+#contentMain .frontAdmin table
+{
+	border: 1px solid #999;
+	border-collapse:collapse;
+	width: 98%;
+	margin-left: 5px;
+	background-color:#efefef;
+}
+
+
+#contentMain .frontAdmin  th
+{
+	border: 1px solid #999;
+	font-size:90%;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #fff;
+	padding: 5px;
+}
+
+
+#contentMain  .frontAdmin td
+{
+	border: 1px solid #999;
+	width: auto;
+	padding: 5px;
+	vertical-align:top;	
+	text-align: center;
+}
+
+
+#contentMain  .frontAdmin a
+{
+	color: #f90;
+}
+#contentMain  .frontAdmin p
+{
+	margin: 5px;
+}
